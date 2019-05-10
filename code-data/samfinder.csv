@@ -1,0 +1,6 @@
+#date,repos,reposwithsams,sams,samsperrepo,yamlperrepo,brokenperrepo,samnocode,samremotecode,samzipcode,samfoldercode,reponocode,reporemotecode,repozipcode,repofoldercode
+2019-05-06,322,284,506,1.58,1.34,0.05,67,63,4,372,45,32,1,206
+2019-05-07,320,282,506,1.58,1.34,0.05,67,63,4,372,45,32,1,204
+2019-05-08,321,283,507,1.58,1.34,0.05,67,63,4,373,45,32,1,205
+2019-05-09,322,285,509,1.58,1.39,0.05,69,63,4,373,47,32,1,205
+2019-05-10,322,285,509,1.58,1.39,0.05,69,63,4,373,47,32,1,205
