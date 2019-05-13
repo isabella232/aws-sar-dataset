@@ -2,11 +2,11 @@ total vendors: 232
 total functions: 533
  - avg per vendor: 2.2974137931034484
  - without capabilities: 438
-total deployments: 60010
- - avg per function: 112.5891181988743
- - avg per vendor: 258.66379310344826
- - avg per function w/o caps: 132.76255707762556
- - avg per vendor w/o caps: 316.0326086956522
+total deployments: 60142
+ - avg per function: 112.83677298311444
+ - avg per vendor: 259.23275862068965
+ - avg per function w/o caps: 133.0593607305936
+ - avg per vendor w/o caps: 316.7391304347826
 
 top vendors:
                      count
@@ -25,15 +25,15 @@ ServerlessOps            8
 top deployments:
                                                deployments
 id                                                        
-alexa-skills-kit-nodejs-factskill                    32434
-alexa-skills-kit-nodejs-triviaskill                   2771
-hello-world                                           2058
-SecretsManagerRDSMySQLRotationSingleUser              1971
-alexa-skills-kit-nodejs-howtoskill                    1631
+alexa-skills-kit-nodejs-factskill                    32512
+alexa-skills-kit-nodejs-triviaskill                   2776
+hello-world                                           2060
+SecretsManagerRDSMySQLRotationSingleUser              1972
+alexa-skills-kit-nodejs-howtoskill                    1640
 SecretsManagerRDSPostgreSQLRotationSingleUser         1125
-microservice-http-endpoint                             763
+microservice-http-endpoint                             765
 alexa-skills-kit-color-expert-python                   672
-image-resizer-service                                  602
+image-resizer-service                                  603
 SecretsManagerRDSMySQLRotationMultiUser                558
 
 percentage of AWS-provided functions:
@@ -47,9 +47,9 @@ percentage of function deployments over all vendors:
 * AWS                              73.2
 * AWS Elastic Load Balancing       32.0
 * AWS Greengrass                   13.5
-* AWS SageMaker Ground Truth       32.0
+* AWS SageMaker Ground Truth       33.0
 * AWS Sample                       44.0
-* AWS Secrets Manager             292.2
+* AWS Secrets Manager             292.3
 * AWS Serverless Application Repository   10.0
 * AWS WorkMail                     37.0
 * Abhijit Gaonkar                   2.0
@@ -58,27 +58,27 @@ percentage of function deployments over all vendors:
 * Alberta Motor Association         0.0
 * Aleksandar Simovic               35.3
 * Aleksej Burdash                   0.0
-* Alexa Skills Kit               7472.6
+* Alexa Skills Kit               7493.0
 * Alexa for Business               55.0
 * Allen-Michael Grobelny            1.0
 * Alliance of American Football     3.0
-* Amazon API Gateway              198.0
+* Amazon API Gateway              199.0
 * Amazon API Gateway Team         325.0
 * Amazon WorkMail                   3.0
-* AmazonConnectSalesforceIntegration  133.0
+* AmazonConnectSalesforceIntegration  134.0
 * Andy Hopper                       0.5
 * AppDev Team                      96.0
 * Arjen Schwarz                    14.0
 * Arun Gupta                        8.0
 * Ashley Jeffs                      0.0
 * Ben Gallagher                     0.0
-* BrettStack                        8.5
+* BrettStack                        9.0
 * Bryan Weber                       4.0
-* Cagatay Gurturk                 602.0
+* Cagatay Gurturk                 603.0
 * Charoite Lee                     21.0
 * Chris Buonocore                  19.0
 * Chris Coombs                      1.0
-* Chris Lennon                    136.0
+* Chris Lennon                    137.0
 * Chris Munns                      16.0
 * Christian Mueller                 0.0
 * Christopher Osborn                0.0
@@ -92,11 +92,11 @@ percentage of function deployments over all vendors:
 * Dan Lamb                         23.0
 * Danilo Poccia                     5.0
 * DataDome                          5.0
-* Datadog                         288.3
+* Datadog                         289.3
 * Deepak Sihag                      4.0
 * Desole                           17.0
 * Digi                              3.0
-* Digital Sailors                 284.0
+* Digital Sailors                 285.0
 * Drew Dresser                     86.5
 * EI Labs                           4.0
 * Epsagon                           4.3
@@ -142,7 +142,7 @@ percentage of function deployments over all vendors:
 * MS                                4.0
 * Marcilio Mendonca                18.0
 * Marek Kuczynski                  33.4
-* Mark Foster                      34.0
+* Mark Foster                      36.0
 * Mark Wolfe                        1.0
 * Marty J Sullivan and Cornell Earth and Atmospheric Sciences    2.0
 * Masayoshi Mizutani                6.0
@@ -168,11 +168,11 @@ percentage of function deployments over all vendors:
 * Paul Fryer                       19.0
 * Pavel Kral                       13.0
 * Pierre-Antoine Sondag            36.0
-* Piotr Mlocek                     42.3
+* Piotr Mlocek                     43.0
 * PureSec                           3.5
 * Purple Alpha LLC                 10.5
-* Raja Mani                        34.0
-* Randy Findley                    69.0
+* Raja Mani                        35.0
+* Randy Findley                    70.0
 * Ranek Kiil                       13.0
 * Raphael Bickel                    4.0
 * Ravi Lingineni                    3.0
@@ -204,7 +204,7 @@ percentage of function deployments over all vendors:
 * SmArt Share                       7.0
 * Soenke Ruempler                   3.0
 * SoftwareWORX                      4.0
-* Sohan Maheshwar                  71.0
+* Sohan Maheshwar                  72.0
 * Solve HQ                          0.0
 * Sparklane                        15.0
 * Splunk                           21.7
@@ -212,7 +212,7 @@ percentage of function deployments over all vendors:
 * Steffen Grunwald                 27.0
 * Stelligent                       54.5
 * Stilvoid                         18.5
-* Streamdata-IO                     4.1
+* Streamdata-IO                     4.2
 * Sumo Logic                       15.3
 * Suneet M Patil                  115.0
 * Symphonia                         0.0
@@ -223,7 +223,7 @@ percentage of function deployments over all vendors:
 * Thomas Moore                      1.0
 * Thundra                           6.2
 * Timber Technologies              31.0
-* Tomasz Stachlewski               89.0
+* Tomasz Stachlewski               89.5
 * Tsubasa Nishimura                 4.0
 * Umesh Andaluri                    0.0
 * Uva Software LLC                 11.5
