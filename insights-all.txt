@@ -1,12 +1,12 @@
-total vendors: 242
-total functions: 555
- - avg per vendor: 2.293388429752066
- - without capabilities: 446
-total deployments: 66943
- - avg per function: 120.61801801801802
- - avg per vendor: 276.62396694214874
- - avg per function w/o caps: 144.9372197309417
- - avg per vendor w/o caps: 347.5376344086022
+total vendors: 252
+total functions: 574
+ - avg per vendor: 2.2777777777777777
+ - without capabilities: 454
+total deployments: 72979
+ - avg per function: 127.1411149825784
+ - avg per vendor: 289.5992063492063
+ - avg per function w/o caps: 154.97577092511014
+ - avg per vendor w/o caps: 364.55440414507774
 
 top vendors:
                      count
@@ -15,77 +15,80 @@ AWS                    105
 Aleksandar Simovic      29
 AWS Secrets Manager     15
 evanchiu                13
-Pahud Hsieh             12
+Pahud Hsieh             13
 ryfeus                  11
 Streamdata-IO           11
 HERE Technologies       10
-James Hood               8
 ServerlessOps            8
+James Hood               8
 
 top deployments:
                                                deployments
 id                                                        
-alexa-skills-kit-nodejs-factskill                    35856
-alexa-skills-kit-nodejs-triviaskill                   3001
-hello-world                                           2442
-SecretsManagerRDSMySQLRotationSingleUser              2070
-alexa-skills-kit-nodejs-howtoskill                    1844
-SecretsManagerRDSPostgreSQLRotationSingleUser         1228
-microservice-http-endpoint                             834
-alexa-skills-kit-color-expert-python                   772
-image-resizer-service                                  671
-Datadog-Log-Forwarder                                  671
+alexa-skills-kit-nodejs-factskill                    38563
+alexa-skills-kit-nodejs-triviaskill                   3188
+hello-world                                           2786
+SecretsManagerRDSMySQLRotationSingleUser              2224
+alexa-skills-kit-nodejs-howtoskill                    1968
+SecretsManagerRDSPostgreSQLRotationSingleUser         1316
+microservice-http-endpoint                             920
+Datadog-Log-Forwarder                                  848
+alexa-skills-kit-color-expert-python                   829
+image-resizer-service                                  754
 
 percentage of AWS-provided functions:
-0.25
+0.24
 
 percentage of AWS-provided function deployments:
-0.84
+0.83
 
 percentage of function deployments over all vendors:
 * 53ningen                          0.0
 * ACenterA                         12.0
-* AWS                              82.1
-* AWS ADF Builders Team           116.0
-* AWS Elastic Load Balancing       37.2
-* AWS Greengrass                   18.0
-* AWS SageMaker Ground Truth       37.0
-* AWS Samples                      65.0
-* AWS Secrets Manager             313.1
-* AWS Serverless Application Repository   13.0
-* AWS WorkMail                     40.0
+* AWS                              90.1
+* AWS ADF Builders Team           182.0
+* AWS Elastic Load Balancing       46.2
+* AWS Greengrass                   20.0
+* AWS SageMaker Ground Truth       48.0
+* AWS Samples                      78.0
+* AWS Secrets Manager             336.9
+* AWS Serverless Application Repository   15.0
+* AWS WorkMail                     45.0
 * Abhijit Gaonkar                   2.0
-* Adam Westrich                    41.0
+* Adam Westrich                    43.0
 * Aiden Kihyun Kim                  0.0
 * Alberta Motor Association         0.0
-* Aleksandar Simovic               40.2
+* Aleksandar Simovic               44.4
 * Aleksej Burdash                   0.0
-* Alex Casalboni                    3.0
-* Alexa Skills Kit               8304.8
+* Alex Casalboni                   12.0
+* Alexa Skills Kit               8961.4
 * Alexa for Business               55.0
 * Allen-Michael Grobelny            1.0
 * Alliance of American Football     3.0
-* Amazon API Gateway              246.0
-* Amazon API Gateway Team         372.0
+* Amazon API Gateway              282.0
+* Amazon API Gateway Team         429.0
 * Amazon WorkMail                   3.0
-* AmazonConnectSalesforceIntegration  153.0
+* AmazonConnectSalesforceIntegration  169.0
 * Andy Hopper                       0.5
-* AppDev Team                     106.0
-* Arjen Schwarz                    14.0
+* AppDev Team                     130.0
+* Arjen Schwarz                    15.0
 * Arun Gupta                        8.0
 * Ashley Jeffs                      0.0
 * Ben Gallagher                     0.0
 * Ben Kehoe                         0.0
-* BrettStack                       14.5
-* Bryan Weber                       4.0
-* Cagatay Gurturk                 671.0
+* Benjamin Smith                    1.0
+* Blockstack PBC                    1.0
+* BrettStack                       17.0
+* Bryan Weber                       5.0
+* CLei                              2.0
+* Cagatay Gurturk                 754.0
 * Charoite Lee                     21.0
-* Chris Buonocore                  23.0
+* Chris Buonocore                  25.0
 * Chris Coombs                      1.0
 * Chris Lennon                    137.0
-* Chris Munns                      19.0
+* Chris Munns                      20.0
 * Christian Mueller                 0.0
-* Christopher Osborn                0.0
+* Christopher Osborn                2.0
 * Chunky Tech                       2.0
 * Citizen Dispatch                  1.0
 * Claranet IT                       0.0
@@ -94,37 +97,39 @@ percentage of function deployments over all vendors:
 * CloudYeti                        12.0
 * Cribl                             4.0
 * Dan Lamb                         23.0
-* Danil Smirnov                     1.0
-* Danilo Poccia                     7.0
+* Danil Smirnov                     2.0
+* Danilo Poccia                     9.0
 * DataDome                          5.0
-* Datadog                         354.0
+* Datadog                         422.3
 * Deepak Sihag                      4.0
 * Desole                           17.0
 * Digi                              3.0
-* Digital Sailors                 331.0
-* Drew Dresser                     93.5
-* EI Labs                           5.0
+* Digital Sailors                 364.0
+* Drew Dresser                    105.0
+* EI Labs                           6.0
+* Enrico Bergamo                    2.0
 * Epsagon                           4.3
 * Eric Allam                        1.0
-* Eric Johnson                      1.0
+* Eric Johnson                      2.7
 * Fernando Dingler                  1.0
-* Five Talent                      36.0
-* Francois-Xavier Gsell            16.0
+* Five Talent                      38.0
+* Francois-Xavier Gsell            17.0
 * Ganesh Shankaran                  0.0
 * Gaurav Sahi Gopalakrishnan Subramaniam   16.0
 * George Seib                       2.0
-* Giulio Calzolari                 34.0
-* Gojko Adzic                       2.0
+* Giulio Calzolari                 38.0
+* Gojko Adzic                      28.5
 * GreenWarrior                     11.0
-* HERE Technologies                15.3
-* Harsha Warrdhan Sharma           32.5
+* HERE Technologies                16.2
+* Harsha Warrdhan Sharma           35.5
 * Horacio Canales                  12.0
 * IOpipe                           18.0
 * Jagsp                           229.0
-* James Beswick AWS                 3.0
-* James Boyle Ben Romano Will Kalescky   13.0
+* James Beswick AWS                 4.0
+* James Boyle Ben Romano Will Kalescky   14.0
 * James Hood                       14.0
 * Janson CHiu                      32.0
+* Javier Campos                     4.0
 * Jenn J                            6.0
 * Jens Eickmeyer                    5.0
 * Jesus Chavez                      8.0
@@ -133,64 +138,65 @@ percentage of function deployments over all vendors:
 * Juan Murillo                      4.0
 * Kalpit Pokra                      0.0
 * Kashif Imran Ganesh Shankaran     8.0
-* Keeton Hodgson                   22.8
+* Keeton Hodgson                   30.0
 * Kevin McCandless                 30.0
 * Kim                               1.5
-* Kwun-Hok Chan                    90.8
+* Kwun-Hok Chan                    96.0
 * Kyle Goehner                      1.0
 * Lars Fronius                      2.0
-* Logan Zartman                    12.0
+* Logan Zartman                    14.0
 * LogicMonitor                      4.0
-* Logzio                           21.0
-* Lu Hong                           4.0
+* Logzio                           22.0
+* Lu Hong                           4.3
 * Luis de la Torre                  1.0
-* Lumigo                           14.8
+* Lumigo                           13.6
 * MABH                              0.0
-* MS                                6.0
+* MS                               10.0
 * Maksim Aniskov                    3.0
-* Marcilio Mendonca                21.0
-* Marek Kuczynski                  34.4
-* Mark Foster                      41.0
+* Marcilio Mendonca                23.0
+* Marek Kuczynski                  36.0
+* Mark Foster                      54.0
 * Mark Wolfe                        1.0
 * Marty J Sullivan and Cornell Earth and Atmospheric Sciences    2.0
 * Masayoshi Mizutani                6.0
-* Matias Paz Wasiuchnik            40.0
+* Matias Paz Wasiuchnik            46.0
+* Me                                1.0
 * Meng Jiann Lee                    0.0
-* Milan Cermak                      5.3
-* Mobile Quickie                   10.0
+* Milan Cermak                      6.0
+* Mobile Quickie                   23.0
 * Mohamed Hassan AbdulRahman       43.0
 * Moritz Onken                      0.0
 * MrLooquer                         5.0
 * Mridula Grandhi                   5.0
 * Nathan Glover                     2.0
-* Native Documents                 17.0
+* Native Documents                 26.0
 * Neil Conlan                       0.0
 * Nes                               1.0
-* New Relic                       129.0
-* Nick Triantafillou              120.5
+* New Relic                       156.0
+* Nick Triantafillou              127.5
 * Niza Siwale                       1.0
-* OWASP                            36.5
+* OWASP                            51.0
 * Octo Technology Australia        17.2
 * Onur Yilmaz                       0.0
-* Pahud Hsieh                       9.1
+* Pahud Hsieh                       9.8
 * Palo Alto Networks Developers Relations    9.0
 * Palo Alto Networks Tools and Integrations    2.0
-* Paul Fryer                       24.0
+* Paul Fryer                       25.0
 * Pavel Kral                       13.0
-* Pierre-Antoine Sondag            37.0
-* Piotr Mlocek                     52.0
+* Pierre-Antoine Sondag            39.0
+* Piotr Mlocek                     57.3
 * PureSec                           3.5
 * Purple Alpha LLC                 12.5
-* Raja Mani                        40.0
+* Raja Mani                        48.0
 * Randy Findley                    70.5
-* Ranek Kiil                       13.4
+* Ranek Kiil                       14.2
 * Raphael Bickel                    4.0
-* Ravi Lingineni                    3.0
+* Ravi Lingineni                    4.0
 * Revolution11                      3.5
 * Richard Boyd                      0.0
-* Rob Hasselbaum                    7.0
+* Rob Hasselbaum                    8.0
 * Rob Rose                          2.5
-* Roberto Iturralde                11.0
+* Roberto Iturralde                13.0
 * Rohit Mandavia                   10.0
 * Ronan Prenty and Adam Westrich    4.5
 * Rory Jacob                        3.0
@@ -198,115 +204,119 @@ percentage of function deployments over all vendors:
 * SFAWSsync                        24.0
 * SLAppForge                       47.0
 * SSLMate                           4.0
-* Sakaar                            5.0
-* Saleem Javed                      9.0
+* Sakaar                            7.0
+* Saleem Javed                     10.3
 * Sam Dengler                       2.0
-* Sami Tanbouz                     20.5
-* Sander Knape                     26.0
+* Sami Tanbouz                     21.0
+* Sander Knape                     29.0
 * Sayak Kundu                       2.0
-* Scott Horsfield                   5.0
+* Scott Horsfield                   3.5
 * Sergey Novikov                   10.0
-* ServerlessOps                     6.1
+* ServerlessOps                     6.4
 * Shay Malchi                       4.0
 * Shogo Ichinose                    3.0
-* Shweta Katdare                    5.0
-* SignalFx                         30.8
+* Shweta Katdare                    6.0
+* Si Novi                           4.0
+* SignalFx                         31.8
 * SmArt Share                       7.0
 * Soenke Ruempler                   3.0
 * SoftwareWORX                      4.0
-* Sohan Maheshwar                 128.0
+* Sohan Maheshwar                 159.0
 * Solve HQ                          0.0
 * Sparklane                        15.0
 * Splunk                           21.8
-* Starterbot                        9.0
-* Steffen Grunwald                 38.0
-* Stelligent                       61.0
+* Starterbot                       11.0
+* Steffen Grunwald                 50.0
+* Stelligent                       72.5
 * Stilvoid                         19.0
 * Streamdata-IO                     4.3
-* Sumo Logic                       17.0
-* Suneet M Patil                  162.0
+* Sumo Logic                       17.4
+* Suneet M Patil                  201.0
 * Symphonia                         0.0
 * Tarik Makota and Kevin Deng      17.0
-* TensorIoT                        18.0
+* TensorIoT                        19.5
 * Terren Peterson                  60.0
 * Thomas                            3.0
 * Thomas Moore                      3.0
-* Thundra                           6.5
+* Thundra                           6.8
 * Timber Technologies              35.0
-* Tomasz Stachlewski              100.0
+* Tomasz Stachlewski              105.0
+* Tony Ivchenko                     2.0
 * Tsubasa Nishimura                 4.0
 * Umesh Andaluri                    0.0
-* Uva Software LLC                 11.5
+* Uva Software LLC                 12.0
 * Verdi March                       2.0
-* Vincent Lesierse                 23.0
-* William Weiss                    10.5
-* Yasith Lokuge                     3.0
-* Yuji Nishimura                   37.0
-* Yuki Matsushita                  18.0
+* Vincent Lesierse                 24.0
+* William Weiss                    10.8
+* Yasith Lokuge                     4.0
+* Yuji Nishimura                   41.0
+* Yuki Matsushita                  21.0
 * alexatrafficdealer                5.0
 * author                            0.0
-* awsed                             7.0
+* awsed                            11.0
 * bildungsroman                     0.0
 * chris                             4.0
 * cohalz                            0.0
-* daisuke-awaji                     1.0
+* daisuke-awaji                     2.0
 * devesh                            0.0
-* dougalb                          78.0
+* dougalb                          83.0
 * eebbesen                          7.0
-* eetee                             1.0
+* eetee                             2.0
 * errose                            5.0
-* evan chiu                       308.0
-* evanchiu                         47.9
+* evan chiu                       338.0
+* evanchiu                         51.7
 * fjfjfjfjfjfj                      0.0
-* hiroki8080                       99.0
+* hiroki8080                      105.0
 * huifeng chen                      2.0
 * huntsper                         17.0
-* jeshan                            1.3
+* jeshan                            1.7
 * jlhood                           14.0
 * lalal                             0.0
-* mmajis                           11.0
+* mmajis                           12.0
 * nobody                            4.0
 * nops                              0.0
-* phucnh                            2.0
+* phucnh                            1.0
 * qwang                             0.0
 * rav3n                             3.0
-* robperc                          30.5
-* ryfeus                           40.5
-* saleem Javed                      5.0
+* robperc                          31.5
+* ryfeus                           45.2
+* saleem Javed                      6.0
 * sbstjn                           12.0
 * sinofseven                        0.0
 * sliedig                           0.0
 * sstest                            1.0
 * sthulb                            0.0
 * taptap                           43.0
-* test                              1.0
-* thegeocloud                       4.0
+* test                              2.0
+* thegeocloud                       5.0
 * turja-chaudhuri                   2.0
-* uday vissa                       10.0
+* uday vissa                       11.0
+* user1                             0.0
 * xshen                             6.0
 * youyo                             0.0
+* zhenyu                            2.0
 
 tags:
-- set 436, not set 119, percent set 78.55855855855856
-- total 2032
-  - avg per function: 3.661261261261261
-- unique 780
-  - avg length: 7.393589743589744
+- set 449, not set 125, percent set 78.22299651567944
+- total 2097
+  - avg per function: 3.653310104529617
+- unique 807
+  - avg length: 7.418835192069393
   - max length: 29 (salesforce-api-access-manager)
 - top:
             count
 tags             
-lambda        101
+lambda        105
 s3             59
 nodejs         46
 AWS            42
 api            33
+Lambda         32
 dynamodb       31
-Lambda         31
-serverless     29
+serverless     31
 python         28
-sample         25
+sample         26
 
 urls:
-- set 476, not set 79, percent set 85.76576576576576
-- github 407, percent github 73.33333333333333
+- set 491, not set 83, percent set 85.54006968641114
+- github 422, percent github 73.5191637630662
